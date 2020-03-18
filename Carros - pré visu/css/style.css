@@ -79,6 +79,20 @@ body{
     display: flex;
     justify-content: center;
     box-shadow: 0px 13px 10px #484848;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa_h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.3em;
+    font-size: 1em;
+}
+
+.caixa p{
+    font-size: 10px;
+    padding: 0 1.3em;
 }
 
 .caixa2{
@@ -114,7 +128,7 @@ a{
 }
 
 .botao{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 footer{
@@ -188,6 +202,22 @@ footer{
         border-radius: 8px;
     }
 
+    .caixa{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caixa_h3{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.5em;
+    }
+
+    .caixa p{
+        font-size: 15px;
+        padding: 0 2em;
+    }
+
     .caixa2{
         margin-top: 6em;
         border-radius: 8px;
@@ -242,11 +272,21 @@ footer{
 
     }
 
-    .caixa p{
-        margin-top: 1em;
-        font-family: 'Titillium Web';
-        font-size: 1.5em;
+    .caixa{
+        display: flex;
+        flex-direction: column;
+    }
 
+    .caixa_h3{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.5em;
+        font-size: 1.5em;
+    }
+
+    .caixa p{
+        font-size: 1em;
+        padding: 0 4em;
     }
 
     .caixa2 a{
