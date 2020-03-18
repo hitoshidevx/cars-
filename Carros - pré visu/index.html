@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pré-visualização</title>
+    <link rel="stylesheet" href="css/style.css">
+    <src="https://kit.fontawesome.com/525a7ba6e9.js" crossorigin="anonymous"/>
+
+</head>
+
+<body>
+    <header class="cabeça">
+        <div class="topo">
+            <img class="img2" src="images/Logo.png" alt="Logo dos Carros">
+            <a href="#" onclick="botaoMenu()">
+                <i class="fas fa-bars"></i>
+            </a>
+            <nav id="botaoMenu">
+                <ul>
+                    <li><a href="#">Ínicio</a></li>
+                    <li><a href="#">Novidades</a></li>
+                    <li><a href="#">Confeccione</a></li>
+                    <li><a href="#">Sign In|Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>PRÉ-VISUALIZAÇÃO</h1>
+            <picture>
+                <source media="(min-width: 1200px)" srcset="images/carrao_1200.jpg">
+                <source media="(min-width: 768px)" srcset="images/carro_esportivo_768.jpg">
+                <img class="img1" src="images/carro_rebaixado.jpg" alt="Imagem de um carro rebaixado">
+            </picture>
+        </div>
+        <div class="caixa">
+            <p>Descrição:</p>
+        </div>
+        <div class="caixa2">
+            <div class="botao">
+                <a href="#" class="btn gradient">Salvar</a>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <script>
+        function botaoMenu(){
+           
+            var m = document.getElementById("menu");
+             if(m.style.display == "block"){
+                 m.style.display = "none";
+             }else{
+                 m.style.display = "block" 
+             }
+             }
+         </script>
+         
+</body>
+
+</html>
